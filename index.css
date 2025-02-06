@@ -1,0 +1,32 @@
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+   
+   
+}
+
+
+p {
+    display: inline;
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+
+}
+
+h1 {
+    height: 30px;
+}
+
+.hdn {
+    display: none;
+}
+
+
+h3 {
+    width: 30%;
+    color: brown;
+}
+
