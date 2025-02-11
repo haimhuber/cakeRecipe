@@ -1,16 +1,21 @@
+
 function cakeRecipePage() {
     const cakePictures = [ 
         {
-        cakeType : "Cheese cake",
-        cakeImg : "https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=600"
+            cakeType : "Cheese cake",
+            cakeImg : "https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?auto=compress&cs=tinysrgb&w=600"
 
         },
         {
             cakeType : "Strebbery cake",
             cakeImg : "https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg?auto=compress&cs=tinysrgb&w=600"
-            },
+        },
+        {
+            cakeType : "Chocolate cake",
+            cakeImg : "https://images.pexels.com/photos/7381533/pexels-photo-7381533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
     ];
-
+    
     cakePictures.forEach(currCake => {
         // Creating main Div
         const mainCakeDiv = document.createElement('div');
@@ -56,13 +61,11 @@ function cakeRecipePage() {
             arrowUp.classList.toggle('hdn');
             arrowDown.classList.toggle('hdn');
             addInstruction.classList.toggle('hdn');
-            
         });
         arrowDown.addEventListener('click', () => {
             arrowUp.classList.toggle('hdn');
             arrowDown.classList.toggle('hdn');
             addInstruction.classList.toggle('hdn');
-            
         });
     });    
 
